@@ -7,5 +7,5 @@ gem "sinatra-contrib"
 group :test do
   gem "rspec"
   gem "rack-test"
-  gem "webmock"
+  gem "webmock", ">= 2.3.2"
 end
